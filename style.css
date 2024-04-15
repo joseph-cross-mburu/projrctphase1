@@ -1,0 +1,129 @@
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+button[type="submit"] {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+#body{
+    background-color: darkslategrey;
+    text-align: justify;
+    padding: 25px 0;
+    color: bisque;
+}
+h6{
+    position: inherit;
+    top: 34%;
+    left: 22%;
+    color:black;
+    font-size: 4rem;
+    letter-spacing: 0.1rem; 
+}
+h6 span{
+    text-align: justify;
+    opacity: 1;
+    display: inline;
+    animation: anime 1s linear forwards;
+}
+@keyframes anime{
+    0%{
+        opacity: 0;
+        filter: blur(10px);
+    }
+    100%{
+        opacity: 1;
+        filter: blur(0);
+    }
+}
+h6 span:nth-child(1){
+    animation-delay: 2.5s;
+}
+h6 span:nth-child(2){
+    animation-delay: 5s;
+}
+h6 span:nth-child(3){
+    animation-delay: 1s;
+}
+h6 span:nth-child(4){
+    animation-delay: 1.25s;
+}
+h6 span:nth-child(5){
+    animation-delay: 1.5s;
+}
+h6 span:nth-child(6){
+    animation-delay: 1.75s;
+}
+h6 span:nth-child(7){
+    animation-delay: 2s;
+}
+h6 span:nth-child(8){
+    animation-delay: 2.35s;
+}
+h6 span:nth-child(9){
+    animation-delay: 2.65s;
+}
+h6 span:nth-child(10){
+    animation-delay: 3s;
+}
+h6 span:nth-child(11){
+    animation-delay: 3.35s;
+}
+h6 span:nth-child(12){
+    animation-delay: 3.65s;
+}
+h6 span:nth-child(13){
+    animation-delay: 4s;
+}
+h6 span:nth-child(14){
+    animation-delay: 4.5s;
+}
+h6 span:nth-child(15){
+    animation-delay: 5s;
+}
+h6 span:nth-child(16){
+    animation-delay: 5.5s;
+}
+h6 span:nth-child(17){
+    animation-delay: 6s;
+}h6 span:nth-child(18){
+    animation-delay: 6.5s;
+}h6 span:nth-child(19){
+    animation-delay: 7s;
+}h6 span:nth-child(20){
+    animation-delay: 7.5s;
+}h6 span:nth-child(21){
+    animation-delay: 8s;
+}h6 span:nth-child(22){
+    animation-delay: 8.5s;
+}
+#section{
+    height: 100vh;
+}
+#video{
+    object-fit: cover;
+    margin-left: 13rem;
+}
+#section1{
+    background-color:gray;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: image();
+}
+#addCocktailForm{
+    background-color:darkgray;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
