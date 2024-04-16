@@ -1,5 +1,5 @@
-# code-challenge-2
-# (Project Name) code challenge 2
+# project phase 1
+# (Project Name) the cocktail maker
 
 #### Date, 2024/12/31
 
